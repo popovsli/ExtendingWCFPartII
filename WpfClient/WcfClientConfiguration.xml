@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <system.serviceModel>
+    <extensions>
+      <behaviorExtensions>
+        <add name="ExtendedServiceBehavior" type="WcfExtensions.ServiceBehaviorExtension, WcfExtensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+      </behaviorExtensions>
+      <bindingElementExtensions>
+        <add name="customMessageEncoding" type="WcfExtensions.MessageEncodingBindingElementExtension, WcfExtensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+      </bindingElementExtensions>
+    </extensions>
+
+    <!-- Possible values for innerMessageEncoding: textMessageEncoding, binaryMessageEncoding, mtomMessageEncoding -->
+    <bindings>
+      <customBinding>
+        <binding name="ZipBinding" closeTimeout="00:10:00" openTimeout="00:10:00" receiveTimeout="00:10:00" sendTimeout="00:10:00">
+          <customMessageEncoding innerMessageEncoding="binaryMessageEncoding" messageEncoderType="WcfExtensions.GZipMessageEncoder, WcfExtensions">
+            <readerQuotas maxDepth="999999999" maxStringContentLength="999999999" maxArrayLength="999999999" maxBytesPerRead="999999999" maxNameTableCharCount="999999999">
+            </readerQuotas>
+          </customMessageEncoding>
+          <httpTransport maxBufferSize="999999999" maxReceivedMessageSize="999999999" authenticationScheme="Anonymous" proxyAuthenticationScheme="Anonymous" useDefaultWebProxy="true"/>
+        </binding>
+      </customBinding>
+    </bindings>
+
+    <behaviors>
+      <endpointBehaviors>
+        <behavior name="FileServiceEndpointBehavior">
+          <ExtendedServiceBehavior />
+        </behavior>
+      </endpointBehaviors>
+    </behaviors>
+
+    <client>
+      <endpoint address="http://localhost:8036/Services/FileService"
+          binding="customBinding" bindingConfiguration="ZipBinding"
+          behaviorConfiguration="FileServiceEndpointBehavior"
+          contract="Common.Services.IFileService" name="FileServiceEndPoint" />
+    </client>
+
+  </system.serviceModel>
+</configuration>

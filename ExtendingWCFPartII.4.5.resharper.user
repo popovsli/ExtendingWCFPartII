@@ -1,0 +1,144 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ExtendedServiceHostFactory.cs" caret="604" fromTop="30" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ExtendedServiceBehavior.cs" caret="2488" fromTop="57" />
+      <File id="4522C602-3878-4A4F-A259-09EFC955146B/d:Services/f:IFileService.cs" caret="328" fromTop="17" />
+      <File id="45EA3C5E-F06B-49F0-AC5C-144252A5CAEC/f:FileService.cs" caret="339" fromTop="21" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/d:Properties/f:AssemblyInfo.cs" caret="1158" fromTop="27" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ServiceBehaviorExtension.cs" caret="833" fromTop="40" />
+      <File id="D4E95D11-658E-49AF-8EC8-4B67A7E12F3C/f:Window1.xaml" caret="417" fromTop="9" />
+      <File id="D4E95D11-658E-49AF-8EC8-4B67A7E12F3C/f:Window1.xaml.cs" caret="279" fromTop="12" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ExtendedMessageEncodingBindingElement.cs" caret="1967" fromTop="41" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ExtendedMessageEncoderFactory.cs" caret="1192" fromTop="38" />
+      <File id="D4E95D11-658E-49AF-8EC8-4B67A7E12F3C/f:WcfClientConfiguration.xml" caret="954" fromTop="16" />
+      <File id="45EA3C5E-F06B-49F0-AC5C-144252A5CAEC/f:App.config" caret="677" fromTop="11" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ExtendedServiceHost.cs" caret="882" fromTop="13" />
+      <File id="45EA3C5E-F06B-49F0-AC5C-144252A5CAEC/f:Program.cs" caret="626" fromTop="18" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:MessageEncodingBindingElementExtension.cs" caret="6642" fromTop="32" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:GZipMessageEncoder.cs" caret="3292" fromTop="0" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:WcfClientHelper.cs" caret="0" fromTop="0" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ExtendedChannelFactory.cs" caret="222" fromTop="8" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ExtendedServiceErrorHandler.cs" caret="808" fromTop="13" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:ExtendedClientMessageInspector.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="45EA3C5E-F06B-49F0-AC5C-144252A5CAEC/f:App.config" caret="952" fromTop="15" />
+      <File id="D4E95D11-658E-49AF-8EC8-4B67A7E12F3C/f:WcfClientConfiguration.xml" caret="954" fromTop="16" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:GZipMessageEncoder.cs" caret="2980" fromTop="7" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:GZipMessageEncoder.cs" caret="2162" fromTop="4" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:GZipMessageEncoder.cs" caret="4746" fromTop="38" />
+      <File id="F6E60A01-4AAE-45D2-9F0E-2F9F97F67F5E/f:GZipMessageEncoder.cs" caret="3292" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ExtendedMessageEncodingBindingElement" priority="0" />
+      <Item value="byte" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="string" priority="6" />
+      <Item value="OperationContract" priority="0" />
+      <Item value="var" priority="7" />
+      <Item value="AppDomain" priority="2" />
+      <Item value="fileName" priority="3" />
+      <Item value="fileNameWithPath" priority="3" />
+      <Item value="if" priority="0" />
+      <Item value="File" priority="2" />
+      <Item value="return" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="new" priority="4" />
+      <Item value="FileNotFoundException" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="exception" priority="5" />
+      <Item value="Console" priority="5" />
+      <Item value="FileService" priority="0" />
+      <Item value="fileService" priority="0" />
+      <Item value="fileAsByte" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="txtMessage" priority="1" />
+      <Item value="message" priority="0" />
+      <Item value="isError" priority="0" />
+      <Item value="SolidColorBrush" priority="0" />
+      <Item value="Color" priority="1" />
+      <Item value="configFile" priority="2" />
+      <Item value="proxy" priority="0" />
+      <Item value="App" priority="0" />
+      <Item value="filePath" priority="3" />
+      <Item value="Path" priority="0" />
+      <Item value="buffer" priority="0" />
+      <Item value="byteArray" priority="0" />
+      <Item value="MtomMessageEncoding" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="binding" priority="0" />
+      <Item value="MtomMessageEncodingBindingElement" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CurrentDomain" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.AppDomain">
+      <Item value="BaseDirectory" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetFullPath" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists" priority="0" />
+      <Item value="ReadAllBytes" priority="0" />
+      <Item value="WriteAllBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="3" />
+      <Item value="ReadLine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="1" />
+      <Item value="GetType" priority="1" />
+      <Item value="StackTrace" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="AssemblyQualifiedName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ConsoleServices.FileService">
+      <Item value="GetFile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="Text" priority="0" />
+      <Item value="Foreground" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WcfExtensions.WcfClientHelper">
+      <Item value="GetProxy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Common.Services.IFileService">
+      <Item value="GetFile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ArraySegment`1">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WcfExtensions.ExtendedMessageEncodingBindingElement">
+      <Item value="InnerMessageEncodingBindingElement" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
